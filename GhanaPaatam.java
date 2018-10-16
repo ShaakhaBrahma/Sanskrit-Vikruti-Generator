@@ -7,6 +7,7 @@ public class GhanaPaatam {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
+		System.out.println("welcome to ghana genarator");
 		System.out.println("enter your sentence");
 		String src = in.nextLine();
 		src = src.trim();
