@@ -10,6 +10,7 @@ public class GhanaPaata
 	public static void main(String args[]) throws IOException
 	{
 		 GhanaPaata obj = new GhanaPaata();
+		//Testing HAcktober fest
 		//FileReader fr=new FileReader("C:\\Users\\srivatsa\\Desktop\\shloka.txt");  
 		String src =obj.readFile(new BufferedReader( new InputStreamReader(new FileInputStream("C:\\Users\\srivatsa\\Desktop\\shloka.txt"),"UTF-8")));
 		String dest=new String();
